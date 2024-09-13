@@ -124,6 +124,7 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="Join study"
             android:launchMode="singleTop"
+            android:exported="true"
             android:theme="@style/Theme.Aware">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
